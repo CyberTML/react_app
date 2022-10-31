@@ -1,0 +1,22 @@
+
+.cat-container{
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    height: 750px;
+    box-shadow: 15px 15px 12px grey;
+}
+
+.cat-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.cat-body > *{
+    padding: 5px;
+}
+.cat-header h1 {
+    text-decoration: underline;
+}
