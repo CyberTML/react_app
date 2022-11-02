@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useContext } from 'react'
 
-import {auth} from '../base' // Gives us access to the Auth Object which initializes Authentication.
+import { auth } from '../../base' // Gives us access to the Auth Object which initializes Authentication.
 import { GithubAuthProvider, signInWithPopup, signOut } from 'firebase/auth'
 
 const AuthContext = React.createContext()

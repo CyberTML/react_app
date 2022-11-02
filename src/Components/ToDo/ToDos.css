@@ -29,3 +29,24 @@ body{
     text-decoration: underline;
 }
 
+.todo-body button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline;
+    
+}
+.button-area {
+    justify-content: center;
+}
+
+.todo {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+  }

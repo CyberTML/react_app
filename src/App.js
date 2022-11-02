@@ -17,7 +17,6 @@ import './App.css';
 import AuthProvider from './Contexts/AuthContext';
 import ProtectedRoute from './Components/Navigation/ProtectedRoute';
 
-
 function App() {
   return (    
     <div className="App">
