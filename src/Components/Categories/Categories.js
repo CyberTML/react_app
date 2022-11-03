@@ -13,7 +13,7 @@ export default function Categories() {
                 <br />
                 <h4><em>Instructions:</em></h4>
                 <br />
-                <p></p>
+                <p>
                   1. Login with GitHub to access your account.
                 </p>
                 <p>

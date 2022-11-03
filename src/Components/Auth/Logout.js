@@ -16,7 +16,7 @@ export default function Logout() {
     }
 
   return (
-    <div className='logout text-center p-3 bg-dark text-white'>
+    <div className='logout text-center p-4 bg-dark text-white'>
         <UserProfile />
         <button onClick={() => handleAuth()} className='btn btn-info'>
             Logout

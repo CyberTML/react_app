@@ -58,6 +58,7 @@ export default function ToDos() {
           <div className="todo-body">            
               <div className="todo-header text-center">
                 <h1>ToDo List</h1>
+                <br />
                 <section className='button-area'>
                 <Form onSubmit={handleSubmit}>
                   <Form.Group>

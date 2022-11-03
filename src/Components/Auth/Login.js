@@ -20,16 +20,16 @@ export default function Login() {
 
   return (
     <div className='login'>
-        <article className='bg-info mb-5 p-5 text-dark'>
+        <article className='bg-secondary mb-5 p-4 text-info'>
             <h1 className='text-center'>React ToDo</h1>
         </article>
         <Container>
             <Card className='m-2 border-dark text-center'>
-                <Card.Header className='bg-dark text-white'>
+                <Card.Header className='bg-dark text-info p-5'>
                     <h2>Login w/ GitHub</h2>
                 </Card.Header>
                 <Card.Body>
-                    <button className='btn btn-success' onClick={() => handleAuth()}>
+                    <button className='btn btn-info' onClick={() => handleAuth()}>
                         Login w/ Github
                     </button>
                 </Card.Body>
