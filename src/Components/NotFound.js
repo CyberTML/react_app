@@ -3,8 +3,13 @@ import React from 'react'
 
 export default function NotFound() {
   return (
-    <div>
-        <h1>No Page Was Found</h1>
+    <div className='text-white'>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+        <h1>Please Login to Access this Page!</h1>
     </div>
   )
 }

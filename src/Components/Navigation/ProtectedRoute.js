@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { useAuth } from '../Auth/AuthContext'
+import { useAuth } from '../../Contexts/AuthContext'
 import { Navigate } from 'react-router-dom'
 
 // Below we are making a component that redirects the unauthenticated user to the login screen. We pass in children in the

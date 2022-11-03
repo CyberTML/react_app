@@ -26,7 +26,7 @@ export default function Login() {
         <Container>
             <Card className='m-2 border-dark text-center'>
                 <Card.Header className='bg-dark text-white'>
-                    <h2>Login for full functionality</h2>
+                    <h2>Login w/ GitHub</h2>
                 </Card.Header>
                 <Card.Body>
                     <button className='btn btn-success' onClick={() => handleAuth()}>

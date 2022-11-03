@@ -17,6 +17,7 @@ import './App.css';
 import AuthProvider from './Contexts/AuthContext';
 import ProtectedRoute from './Components/Navigation/ProtectedRoute';
 
+
 function App() {
   return (    
     <div className="App">
@@ -24,11 +25,10 @@ function App() {
         <Router>
           <AppNav />
           <Routes>
-            <Route path='/' element={<ToDos />} />
-            <Route path='/todo' element={<ProtectedRoute><ToDos /></ProtectedRoute>} />          
+            <Route path='/' element={<Categories />} />
             <Route path='/categories' element={<Categories />} />
+            <Route path='/todo' element={<ToDos />} />          
             <Route path='/login' element={<Login />} />
-            <Route path='*' element={<NotFound />} />
           </Routes>
           <Footer />     
         </Router>
